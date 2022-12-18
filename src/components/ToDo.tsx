@@ -1,5 +1,5 @@
 import styles from './ToDo.module.css';
-import { Trash, RadioButton, CheckCircle } from 'phosphor-react';
+import { Trash } from 'phosphor-react';
 import checkFalse from '../assets/check_false.svg';
 import checkTrue from '../assets/check_true.svg';
 interface Task {

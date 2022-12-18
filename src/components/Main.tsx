@@ -18,7 +18,7 @@ export function Main() {
     setNewTaskTitle(event.target.value);
   }
 
-  // corrigir tipo de evento para passar
+  // corrigir parametro de entrada
   // function handleInputKey(event: KeyboardEvent) {
   //   if (event.code === 'Enter') {
   //     handleCreateNewToDo(event);
@@ -80,7 +80,7 @@ export function Main() {
             type="text"
             onChange={handleToDoChange}
             value={newTaskTitle}
-            //onKeyDown={handleInputKey}
+            //onKeyDown={handleInputKey} // verificar parametro esperado para esse tipo
           />
           <button onClick={handleCreateNewToDo}>
             Criar <PlusCircle size={32} />
