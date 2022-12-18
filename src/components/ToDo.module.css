@@ -1,0 +1,63 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 73rem;
+  min-height: 7.2rem;
+  background: var(--gray-400);
+  border-radius: 8px;
+  padding: 1.6rem;
+  gap: 1.2rem;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: var(--gray-100);
+}
+
+.item+.item {
+  margin-top: 2rem;
+}
+
+.item button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.checkItem {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconListCheckTrue {
+  cursor: pointer;
+  color: var(--blue);
+  width: 2rem;
+  height: 2rem;
+}
+
+.iconListCheckTrue {
+  cursor: pointer;
+  color: var(--blue);
+  width: 2rem;
+  height: 2rem;
+}
+
+.iconListTrash {
+  box-sizing: content-box;
+  padding: 1rem;
+  cursor: pointer;
+  color: var(--gray-300);
+  border-radius: 8px;
+}
+
+.iconListTrash:hover {
+  color: var(--danger);
+  background: var(--gray-500);
+}
+
+.complete {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
